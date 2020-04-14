@@ -3,14 +3,13 @@
 
 <center>
 <div class="addSection">
-  <h1>Add Post</h1>
+
   <div class="heading">
-      <div class="box">1</div>
-      <h2>Add an Item</h2>
+    <div class="box">1</div>
+    <h1>Add Photo</h1>
   </div>
 
   <div class="add">
-
       <div class="form">
         <input v-model="title" placeholder="Title">
         <p></p>
@@ -34,11 +33,12 @@
 
 
 <div class="editSection">
-    <h1>Edit Post</h1>
-    <div class="heading">
-      <div class="box">2</div>
-      <h2>Edit/Delete an Item</h2>
-    </div>
+
+<div class="heading">
+  <div class="box">2</div>
+  <h1>Edit Post</h1>
+</div>
+
     <div class="edit">
       <div class="form">
         <input v-model="findTitle" placeholder="Search">
@@ -157,7 +157,7 @@ export default {
 
 
 <style scoped>
-.image h2 {
+.image h1 {
   font-style: italic;
   font-size: 1em;
 }
@@ -172,7 +172,7 @@ export default {
   margin-top: 20px;
 }
 
-.heading h2 {
+.heading h1 {
   margin-top: 8px;
   margin-left: 10px;
 }
@@ -252,10 +252,6 @@ button,
   background-color: #5BDEFF;
   color: #fff;
 }
-
-
-
-
 
 
 

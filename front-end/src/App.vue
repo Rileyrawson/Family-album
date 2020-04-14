@@ -18,8 +18,19 @@
     </div>
 
     <div class="addLink">
-      <router-link to="/add">Add Photos</router-link>
+      <router-link to="/family">Family</router-link>
     </div>
+
+    <div class="addLinkEdit">
+      <router-link to="/add">Edit Photos</router-link>
+    </div>
+
+
+    <div class="addLinkEdit">
+      <router-link to="/people">Edit Family</router-link>
+    </div>
+
+
 
   </div>
   <div class="content">
@@ -72,6 +83,13 @@ body {
   padding: 15px;
   margin: 5px;
 }
+.addLinkEdit {
+  background: #4d4847;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
 
 .title {
   margin-top: 5px;

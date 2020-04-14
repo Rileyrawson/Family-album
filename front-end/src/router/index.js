@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Add from '../views/Add.vue'
 import Gallery from  '../views/Gallery.vue'
+import People from  '../views/People.vue'
+import FamilyList from '../views/FamilyList.vue'
 
 Vue.use(VueRouter)
 
@@ -13,7 +15,7 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/add',
+    path: '/add/',
     name: 'add',
     component: Add
   },
@@ -21,6 +23,16 @@ Vue.use(VueRouter)
     path: '/gallery',
     name: 'gallery',
     component: Gallery
+  },
+  {
+    path: '/people',
+    name: 'people',
+    component: People
+  },
+  {
+    path: '/family',
+    name: 'family',
+    component: FamilyList
   }
 ]
 

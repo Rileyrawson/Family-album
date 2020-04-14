@@ -12,9 +12,11 @@
   </div>
 
   <center>
-  <div class="test">
+  <div class="links">
     <p>To view the photos go to the <router-link to="/gallery">Gallery</router-link> page.</p>
-    <p>To add  a new post go to the <router-link to="/add">Add Photos</router-link> page.</p>
+    <p>To view membersof the Rawson Clan go to the <router-link to="/family">Family</router-link> page.</p>
+    <p>To add a new photo or edit a post go to the <router-link to="/add">Edit Photos</router-link> page.</p>
+    <p>To add more family members or edit existing profile go to the <router-link to="/people">Edit Family</router-link> page.</p>
   </div>
   </center>
 
@@ -52,4 +54,33 @@ img {
   margin: 10px;
 }
 
+.links{
+  color: #fff;
+  background: #1c3738;
+  padding: 5px;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .links{
+    width:  50%;
+  }
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .links{
+    margin: 1px;
+    width:  100%
+  }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .links{
+    margin: 1px;
+    width: 100%;
+  }
+}
 </style>
